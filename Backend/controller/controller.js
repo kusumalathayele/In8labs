@@ -34,12 +34,16 @@ const insertData = (req, res) => {
 //function to update
 
 const updatedata = (req, res) => {
-    const { Id } = req.body
-    // const { Name, Email, DateOfBirth } = req.body
+    const { Id, Name, Email, DateOfBirth } = req.body;
     if (!Id) {
         return res.status(400).json({ error: 'Missing required fields' });
     }
-    userModel.updateuser(Id, (err, results) => {
+    const updatedFields = { Id };
+    if (Name) updatedFields.Name = Name;
+    if (Email) updatedFields.Email = Email;
+    if (DateOfBirth) updatedFields.DateOfBirth = DateOfBirth;
+
+    userModel.updateuser(updatedFields, (err, results) => {
         if (err) {
             console.error('Error updating table data:', err);
             return res.status(500).json({ error: 'Internal server error' });
