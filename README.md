@@ -1,4 +1,4 @@
-                                                               Full Stack Application
+                                            Full Stack Application
 Introduction:
 
 Our Full stack Application is a tool for managing user data. Built with Node.js, Express.js, MySQL, and React.js, it lets you add, view, edit, and delete user information easily. It's like a digital address book, but for users.
@@ -43,8 +43,11 @@ Usage:
 API Endpoints:
 
 •	GET /get: Get all items
+
 •	POST /insert: Create a new item
+
 •	PUT /update/: Update item by ID
+
 •	DELETE /delete/: Delete item by ID
 
 Contributing:
