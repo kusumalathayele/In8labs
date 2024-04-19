@@ -1,4 +1,5 @@
-                                            Full Stack Application
+                                                          Full Stack Application
+
 Introduction:
 
 Our Full stack Application is a tool for managing user data. Built with Node.js, Express.js, MySQL, and React.js, it lets you add, view, edit, and delete user information easily. It's like a digital address book, but for users.
@@ -25,6 +26,7 @@ Getting Started:
 
 To run this application locally follow these simple steps:
 Installation
+
 1.	Clone this repository to your local machine.
 2.	Navigate to the project directory.
 3.	Install dependencies for both the backend and frontend using the command:
@@ -58,10 +60,6 @@ If you'd like to contribute to this project, feel free to fork the repository an
 3.	Commit your Changes (git commit -m 'Adding updated features')
 4.	Push to the Branch (git push origin )
 5.	Open a Pull Request
-
-License:
-
-Distributed under the MIT License. See LICENSE for more information.
 
 Contact:
 
