@@ -6,14 +6,19 @@ Our Full stack Application is a tool for managing user data. Built with Node.js,
 Features:
 
 •	Create new items
+
 •	Read existing items
+
 •	Update existing items
+
 •	Delete items
 
 Technologies Used:
 
 •	Frontend: React.js
+
 •	Backend: [Node.js with Express]
+
 •	Database (MySQL)
 
 Getting Started:
